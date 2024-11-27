@@ -23,7 +23,7 @@ resource "aws_launch_template" "my-launch-tmp"{
 
     # user_data
 
-    user_data = filebase64("../../code_v2024-07-29/ec2-fundamentals/ec2-user-data.sh") 
+    user_data = filebase64("ec2-user-data.sh")
     
 }
 
